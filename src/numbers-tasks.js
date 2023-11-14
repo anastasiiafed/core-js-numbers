@@ -292,13 +292,9 @@ function getSumOfDigits(/* num */) {
  *   16  => true
  *   15  => false
  */
-function isPowerOfTwo(num) {
-  if (num % 2 === 0){
-    return 'true';}
-  else {return 'false';}
-
+function isPowerOfTwo(/* num */) {
+  throw new Error('Not implemented');
 }
-
 /**
  * Returns the sine of a number.
  *
